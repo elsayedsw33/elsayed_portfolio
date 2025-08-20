@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elsayed Alaa — Portfolio</title>
+  <meta name="description" content="Portfolio of Elsayed Alaa — Data Analyst & Programmer">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.png">
+</head>
+<body>
+  <!-- ============== NAV ============== -->
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="#" class="brand">EA</a>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============== HERO ============== -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Elsayed Alaa</h1>
+        <p class="subtitle">Data Analyst & Programmer</p>
+        <p class="summary">
+          I turn data into decisions and build automation that saves time and money.
+          Skilled in Python, C++, SQL, Excel, Power Pivot, and MySQL.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="assets/Elsayed_Alaa_Portfolio.pdf" download>Download Portfolio (PDF)</a>
+          <a class="btn outline" href="mailto:elsayedswalm@gmail.com">Email Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/elsayed-alaa-a71831333/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <span class="dot">•</span>
+          <span>Shibin El Kom, Egypt</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="assets/profile-placeholder.png" alt="Profile" class="profile"/>
+        <ul class="quick">
+          <li>Machine Intelligence & Systems Engineering</li>
+          <li>English & Arabic</li>
+          <li>Open to internships & freelance</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== ABOUT ============== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am a Data Analyst and Programmer with a strong foundation in Machine Intelligence and Systems Engineering.
+        I specialize in transforming raw data into actionable insights, designing automation pipelines, and optimizing workflows.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============== SKILLS ============== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <div class="bar"><span data-value="85">Python</span></div>
+          <div class="bar"><span data-value="70">C++</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Data</h3>
+          <div class="bar"><span data-value="80">SQL</span></div>
+          <div class="bar"><span data-value="85">Excel & Power Pivot</span></div>
+          <div class="bar"><span data-value="78">MySQL</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Specializations</h3>
+          <ul class="chips">
+            <li>Data Analysis</li>
+            <li>Automation</li>
+            <li>Workflow Optimization</li>
+            <li>Dashboards</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PROJECTS ============== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="python">Python</button>
+          <button class="filter-btn" data-filter="sql">SQL</button>
+          <button class="filter-btn" data-filter="automation">Automation</button>
+        </div>
+      </div>
+      <div id="projectGrid" class="project-grid"><!-- populated by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ============== EXPERIENCE ============== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2><p class="muted">No experience listed yet.</p></div>
+  </section>
+
+  <!-- ============== EDUCATION ============== -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="card">
+        <h3>Faculty of AI — Menoufia University</h3>
+        <p>Major: Machine Intelligence & Systems Engineering</p>
+        <p class="muted">Aug 2024 – Oct 2028</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== CERTIFICATIONS ============== -->
+  <section id="certs" class="section">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <ul class="cards two">
+        <li class="card">
+          <h3>Data Analysis Certificate — DEPI</h3>
+          <p class="muted">2026 </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============== CONTACT ============== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <form id="contactForm" class="form">
+        <div class="grid-2">
+          <label>Full Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+        </div>
+        <label>Subject
+          <input type="text" name="subject" placeholder="Let's work together">
+        </label>
+        <label>Message
+          <textarea name="message" rows="5" placeholder="Your message..." required></textarea>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send Message</button>
+          <span id="formStatus" class="muted"></span>
+        </div>
+      </form>
+      <p class="muted small">Tip: You can wire this form to Formspree or EmailJS in <code>script.js</code>.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Elsayed Alaa — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
